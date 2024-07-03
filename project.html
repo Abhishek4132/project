@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        .navbar{
+            border: 2px solid black;
+            height: 60px;
+            width: 100%;
+            display: flex;
+            background-color: orange;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .contact{
+           display: flex;
+         column-gap: 20px;
+         align-content: center;
+        }
+        .icons{
+            display: flex;
+            gap: 20px;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .name{
+            background-color:black;
+            display: flex;
+            color: white;
+            width: 70px;
+            height:40px;
+            top:40px ;
+        }
+        .navbar2{
+            border: 2px solid;
+            height: 100px;
+            width: 100%;
+            display: flex;
+        column-gap: 20px;
+        gap: 300px;
+        position: relative;
+        }
+        a{
+            color:black;
+            font-size: 20px;
+        }
+        .nav2{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;  
+            position: relative;
+        }
+        .logo{
+           margin-left: 80px;
+        }
+        .ssdown h2{
+          color:brown;
+            
+        }
+        .card img{
+          background-color:rgb(242, 128, 147);
+          height: 200px;
+          width: 200px;
+       
+          margin-left: 40px;
+          display: flex;
+        }
+        .cards{
+          display: flex;
+          gap: 30px;
+          justify-content: center ;
+          box-shadow: 20px;
+        }
+        .content2{
+             background-color:rgb(235, 210, 210);
+
+        }
+        .content3{
+         
+          width: 80vw;
+          height: 140px;
+          display: flex;
+          justify-content: center;
+          margin-left: 150px;
+          gap: 20px;
+          align-items: center;
+        }
+        .box{
+          border-radius:10px;
+          width: 600px;
+          height:120px;
+       display: flex;
+       align-items: end;
+       align-content: center;
+       padding: 30px;
+       text-align: center;
+      }
+      .fa-book{
+        display:flex;
+        position: relative;
+        margin-left: 250px;
+        margin-top: -100px;
+      }
+      .fa-camera{
+        display: flex;
+        position: relative;
+        margin-left: 480px;
+        margin-top: -30px;
+      }
+      .fa-heart{
+        display: flex;
+        position: relative;
+        margin-left: 720px;
+        margin-top: -30px;
+      }
+      .fa-code{
+        display: flex;
+        position: relative;
+        margin-left: 950px;
+        margin-top: -30px;
+      }
+      .fa-globe{
+        display: flex;
+        position: relative;
+        margin-left: 1220px;
+        margin-top: -30px;
+      }
+      .container4{
+       position: relative;
+       bottom:-30px;
+      }
+      .model1{
+        width: 700px;
+        height: 300px;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        box-shadow: 10px 4px 10px black;
+      }
+      .image1{
+        position: relative;
+        margin-top: -300px;
+        margin-left: 700px;
+        z-index: -1;
+      }
+      .ssmiddle{
+        color:brown;
+      }
+      .cards2{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+      }
+      .cards3{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+      }
+      .cards4{
+        display: flex;
+        gap: 30px;
+        justify-content: center; 
+      }
+      .card21,.card22,.card23,.card24,.card25,.card26{
+        box-shadow: 1px 2px 3px 2px  black;
+        border-radius: 5px;
+      }
+      .button{
+        display: flex;
+        justify-content: center;  
+      }
+      .button a{
+        background-color: brown;
+      }
+    .d-block{
+      width: 100%;
+      height: 650px;
+    }
+    .content5{
+      background-image: url(https://media.istockphoto.com/id/919850588/photo/blue-gradient-soft-background.webp?b=1&s=170667a&w=0&k=20&c=iSYAqUtHz1HNYu0O8QEmtIpkbCP8ymZvxTZBXGWc-uQ=);
+      height: 400px;
+      width: 100%;
+    }
+    .bottomimg{
+      margin-left: 900px;
+    }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="contact">
+        <a href="tel:9908256742">+91 9949499416<i class="fa fa-phone"></i></a>
+        <a href="maraveniabhishek4132@gail.com">info@finhexa.com<i style="font-size:19px" class="fa">&#xf003;</i></a>
+    </div>
+      <div class="icons">
+        <i class="fa fa-facebook-f" style="font-size:24px"></i>         
+        <i class="fa fa-twitter-square" style="font-size:24px"></i>
+        <i class="fa fa-google-plus" style="font-size:24px"></i>
+        <i class="fa fa-youtube-play" style="font-size:24px"></i>   
+        <i class="fa fa-instagram" style="font-size:24px"></i>
+        <button class="name"style="font-size:24px">Login</button>
+        </div>
+    </div>
+    <div class="navbar2">
+        <a href="#"class="logo"><img src="https://www.finhexa.com/assets/images/logo.png" height="90px"width="90px"></a>
+        <div class="nav2">
+        <a href="#Home"class="p1">HOME</a>    
+        <a href="https://www.finhexa.com/about_us.php" class="p1">ABOUT US</a> 
+        <a href="#services"class="p1">BUSINESS PLAN</a> 
+        <a href="https://www.finhexa.com/product.php" class="p1">PRODUCTS</a>
+        <a href="#Technical skills" class="p1">REGISTER</a>
+        <a href="#Technical skills" class="p1">CONTACT</a>
+    </div>
+    </div>
+    <div class="slideshow">
+        <div id="carouselExample" class="carousel slide" style="width: 100%;">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../assests/banner1.jpg" class="d-block w-100" alt="..">
+              </div>
+              <div class="carousel-item">
+                <img src="../assests/banner2.jpg" class="d-block w-100" alt="..">
+              </div>
+              <div class="carousel-item">
+                <img src="../assests/banner3.jpg" class="d-block w-100" alt="..">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div><br>
+    <div class="content2">
+    <div class="ssdown">
+    <h2  style="text-align: center;">Why Choose FINHEXA <br> 
+     GLOBAL MARKETING <br>
+     OPC PVT LTD
+    </h2> 
+  </div>
+  <div class="sdown">
+  <p style="text-align: center;"><b>FINHEXA GLOBAL MARKETING <br>OPC PVT LTD is a Marketing<br> Company. It aims to bring happy and <br>prosperous life to millions of people by <br>forming meaningful, long lasting and<br> mutually rewarding business association.</b></p>
+</div><br>
+<div class="cards">
+<div class="card" style="width: 18rem;">
+  <img src="../assests/book1.png" style="border-radius: 50%; margin:40px;" class="card-img-top" alt="..">
+  <div class="card-body">
+    <h5 class="card-title"style="color:brown; text-align:center">Best Business System </h5>
+    <p class="card-text" style="text-align: center;">Best Business System for growing your financial freedom.</p>
+   
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="../assests/globe2.png" style="border-radius: 50%; margin:40px;" class="card-img-top" alt="..">
+  <div class="card-body">
+    <h5 class="card-title"style="color:brown; text-align:center">Team Work</h5>
+    <p class="card-text" style="text-align:center">Team Work is the best idea to achieve success in a short life.</p>
+    
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="../assests/instructors1.png" style="border-radius: 50%; margin:40px;" class="card-img-top" alt="..">
+  <div class="card-body">
+    <h5 class="card-title "style="color:brown; text-align:center">Get Success</h5>
+    <p class="card-text" style="text-align: center;">Unique business opportunity ,Idea and great success in business.</p>
+  </div>
+</div>
+</div><br><br>
+    </div><br><br><br>
+    <div class="ssdown text-center">
+      <h2>Success Element</h2>
+  </div>
+  <div class="ssdown text-center">
+  <p><h5>In business successfull for achieving key <br>element.</h5></p>
+  </div>
+  <div class="content3">
+   <div class="box"style="background-color:orange" id="box1"><b>Growth System</b></div>
+   <div class="box"style="background-color:pink" id="box1"><b>Wallet System</b></div>
+   <div class="box"style="background-color:skyblue" id="box1"><b>Payout System</b></div>
+   <div class="box"style="background-color:lightgreen" id="box1"><b>Referral Link</b></div>
+   <div class="box" style="background-color:red"id="box1"><b>Report Management</b></div>
+  </div>
+  <i class="fa fa-book" style="font-size:30px"></i>
+  <i class="fa fa-camera" style="font-size:30px"></i>
+  <i class="fa fa-heart" style="font-size:30px"></i>
+  <i class="fa fa-code"style="font-size:30px"></i>
+  <i class="fa fa-globe" style="font-size:30px"></i><br><br><br>
+
+  <div class="content4"><br><br>
+    <div class="model1"><br>
+          <h2 style="color: brown;">FINHEXA GLOBAL MARKETING OPC PVT LTD</h2>
+        <p>FINHEXA GLOBAL MARKETING OPC PVT LTD is a Marketing Company.<br>It aims to bring happy and prosperous life to millions of people by forming meaningful,<br> long lasting and mutually rewarding business association. It has built up its base <br>through distinguished quality products and income plans the quality of which is being <br>widely honored and acclaimed. It has a unique business solution for all class of people <br>to earn unlimited income.</p>
+    </div>
+    <div class="image1">
+    <img src="../assests/about_img.jpg" height=300px; width=700px;></div>
+</div>
+</div><br><br>
+<div class="ssmiddle">
+  <h2  style="text-align: center;">Our Business</h2></div> 
+  <p  style="text-align: center;">"Best business plan, best income and get best life style."</p>
+
+  <div class="cards2">
+    <div class="card21">
+  <div class="card" style="width: 18rem;">
+    <img src="../assests/m1.jpg" style="margin-left:0px; width:286px" class="card-img-top" alt="..">
+    <div class="card-body">
+      <h5 class="card-title">Great Idea</h5>
+      <p class="card-text">Being a successful business person and entrepreneur is about taking advantage of every opportunity that comes your way..</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  </div>
+  <div class="card22">
+  <div class="card" style="width: 18rem;">
+    <img src="../assests/m2.jpg" style="margin-left:0px; width:286px" class="card-img-top" alt="..">
+    <div class="card-body">
+       <h5 class="card-title">Great Business opportunity</h5>
+       <p class="card-text">A business opportunity involves sale or lease of any product, service, equipment, etc..</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  </div>
+  <div class="card23">
+  <div class="card" style="width: 18rem;">
+    <img src="../assests/m3.jpg" style="margin-left:0px; width:286px" class="card-img-top" alt="">
+    <div class="card-body">
+      <h5 class="card-title">Team Work</h5>
+      <p class="card-text">Teamwork is the collaborative effort of a team to achieve a common goal or to complete a task in the most effective and efficient way..</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</div>
+  </div><br>
+<div class="cards3">
+  <div class="card24">
+  <div class="card" style="width: 18rem;">
+    <img src="../assests/m4.jpg" style="margin-left:0px; width:286px" class="card-img-top" alt="..">
+    <div class="card-body"> 
+      <h5 class="card-title">Best Team And Management</h5>
+      <p class="card-text">Team management is the ability of an individual or an organization to administer and coordinate a group of individuals to perform a task. Team management involves teamwork, communication, objective setting and performance appraisals..</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  </div>  
+  <div class="card25">
+  <div class="card" style="width: 18rem;">
+    <img src="../assests/m5.jpg" style="margin-left:0px; width:286px" class="card-img-top" alt="..">
+    <div class="card-body">
+      <h5 class="card-title">Best Business Idea</h5>
+      <p class="card-text">Network marketing is one of the best business ideas with low investment but, one has to be very careful before making that move. It’s a common myth that anyone who has the least knowledge about the network marketing can join in and make a fortune as mentioned above.z.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  </div>
+  <div class="card26">
+  <div class="card" style="width: 18rem;">
+    <img src="../assests/m6.jpg" style="margin-left:0px; width:286px" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Great Success</h5>
+      <p class="card-text">Business Success Depends Upon Successful Marketing. Highly effective marketing is a make-or-break necessity for most small businesses. It's really impossible for you to be successful without good marketing and sales technique that's what brings the dollars in the door..</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  </div>
+  </div><br>
+  <div class="button">
+  <a href="#" class="btn btn-primary">Best company➡</a>
+  </div><br>
+  <div class="content5">
+      <div class="container4"></div>
+      <div class="bottomimg">
+      <img src="../assests/22-removebg-preview.png" style="width:220px;">
+      </div>
+  </div>           
+ </body>
+ </html>
